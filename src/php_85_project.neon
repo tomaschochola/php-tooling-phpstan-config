@@ -1,8 +1,8 @@
 includes:
-  - ./php_85.neon
+    - ./php_85.neon
 
 parameters:
-  checkTooWideParameterOutInProtectedAndPublicMethods: true
-  checkTooWideReturnTypesInProtectedAndPublicMethods: true
-  checkTooWideThrowTypesInProtectedAndPublicMethods: true
-  treatPhpDocTypesAsCertain: true
+    checkTooWideParameterOutInProtectedAndPublicMethods: true
+    checkTooWideReturnTypesInProtectedAndPublicMethods: true
+    checkTooWideThrowTypesInProtectedAndPublicMethods: true
+    treatPhpDocTypesAsCertain: true
